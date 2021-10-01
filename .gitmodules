@@ -1,0 +1,3 @@
+[submodule "opencv4nodejs-install/opencv4nodejs"]
+	path = opencv4nodejs-install/opencv4nodejs
+	url = git@github.com:koush/opencv4nodejs
