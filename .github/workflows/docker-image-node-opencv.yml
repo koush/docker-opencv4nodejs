@@ -1,4 +1,4 @@
-name: Publish Docker image: node-opencv
+name: Publish Docker image - node-opencv
 
 on:
   workflow_dispatch:
@@ -42,5 +42,6 @@ jobs:
           platforms: linux/amd64,linux/arm64,linux/armhf
           push: true
           tags: koush/node-opencv:latest
+          file: Dockerfile.node-opencv
           # tags: ${{ steps.meta.outputs.tags }}
           # labels: ${{ steps.meta.outputs.labels }}
