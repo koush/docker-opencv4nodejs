@@ -51,7 +51,7 @@ RUN cmake \
 RUN make -j$(nproc) \
     && make install \
     && rm -rf /opt/build/* \
-    && rm -rf /opencv \
+    && rm -rf /opt/opencv-${OPENCV_VERSION} \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get -qq autoremove \
     && apt-get -qq clean
