@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16-bullseye
 
 WORKDIR /opt/build
 ENV OPENCV_VERSION="4.5.3"
